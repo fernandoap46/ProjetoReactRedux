@@ -6,7 +6,7 @@ export default function TabelaProdutos(props){
     function getLinhas(){
         return produtos.map((produtos, i) =>{
             return(
-                <tr key={produtos.id} className={i % 2 == 0 ? 'Par' : ''}>
+                <tr key={produtos.id} className={i % 2 === 0 ? 'Par' : ''}>
                     <td>{produtos.id}</td>
                     <td>{produtos.nome}</td>
                     <td>R${produtos.preco.toFixed(2).replace('.',',')}</td>
