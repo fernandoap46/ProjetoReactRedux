@@ -1,6 +1,6 @@
 import './TabelaProdutos.css';
 import React from "react";
-import produtos from "../data/produtos";
+import produtos from "../../data/produtos";
 
 export default function TabelaProdutos(props){
     function getLinhas(){

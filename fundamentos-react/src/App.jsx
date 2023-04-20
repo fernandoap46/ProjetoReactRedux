@@ -1,11 +1,11 @@
 import './App.css'
 import React from "react";
 
-import TabelaProdutos from './Repeticao/TabelaProdutos';
-import ListaAluno from './Repeticao/ListaAlunos';
+import TabelaProdutos from './components/Repeticao/TabelaProdutos';
+import ListaAluno from './components/Repeticao/ListaAlunos';
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
-import Card from "./layout/Card";
+import Card from "./components/layout/Card";
 import Aleatorio from "./components/basicos/Aleatorio";
 import PrimeiroComponente from './components/basicos/PrimeiroComponente'
 import ComParametro from './components/basicos/ComParametro'
