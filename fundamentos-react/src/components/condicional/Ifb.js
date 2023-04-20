@@ -1,4 +1,4 @@
-export default function If (props) {
+export default function Ifb (props) {
     if(props.teste){
         return props.children
     }else {
