@@ -1,6 +1,7 @@
 import './App.css'
 import React from "react";
 
+import TabelaProdutos from './Repeticao/TabelaProdutos';
 import ListaAluno from './Repeticao/ListaAlunos';
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
@@ -11,11 +12,16 @@ import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 
 
+
 export default function App(props) {
     return(
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+
+            <Card titulo="#07 Desafio Repetição" color="#CC99CC">
+                    <TabelaProdutos></TabelaProdutos>
+                </Card>
 
                 <Card titulo="#06 Lista Aluno" color="#CC99FF">
                     <ListaAluno></ListaAluno>
