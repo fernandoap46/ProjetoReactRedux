@@ -1,6 +1,7 @@
 import './App.css'
 import React from "react";
 
+import Diretapai from './components/comunicacao/Diretapai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParImpar from './components/condicional/ParImpar';
 import TabelaProdutos from './components/Repeticao/TabelaProdutos';
@@ -20,6 +21,10 @@ export default function App(props) {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+
+                <Card titulo="#09 Comunicação direta" color="#CC99CC">
+                    <Diretapai></Diretapai>
+                </Card>
 
                 <Card titulo="#08 Par ou Impar" color="#CC99CC">
                     <ParImpar numero={20}></ParImpar>
