@@ -1,6 +1,7 @@
 import './App.css'
 import React from "react";
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 import Diretapai from './components/comunicacao/Diretapai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParImpar from './components/condicional/ParImpar';
@@ -21,6 +22,10 @@ export default function App(props) {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+
+                <Card titulo="#10 Comunicação Indireta" color="#CC99CC">
+                    <IndiretaPai></IndiretaPai>
+                </Card>
 
                 <Card titulo="#09 Comunicação direta" color="#CC99CC">
                     <Diretapai></Diretapai>
