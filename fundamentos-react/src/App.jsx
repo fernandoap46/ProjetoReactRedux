@@ -1,6 +1,7 @@
 import './App.css'
 import React from "react";
 
+import Mega from './components/DesafioMegaSena/Mega';
 import ContadorB from './components/contador/ContadorB';
 import Contador from './components/contador/Contador';
 import Input from './components/formulario/Input';
@@ -20,11 +21,17 @@ import Fragmento from './components/basicos/Fragmento'
 
 
 
+
 export default function App(props) {
     return(
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+
+                <Card titulo="#14 Sorteio Mega Sena" color="#CC99CC">
+                    <Mega/>
+                </Card>
+
                 <Card titulo="#13 Contador com reaproveitamento de componente" color="#CC99CC">
                     <ContadorB numeroInicial={10}/>
                 </Card>
